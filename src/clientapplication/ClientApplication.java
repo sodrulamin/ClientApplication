@@ -15,6 +15,7 @@ import dialertest.StunImplementation;
 import fileanalyzer.CallLimitAnalyzer;
 import fileanalyzer.HeaderAnalyzer;
 import fileanalyzer.FileComparer;
+import fileanalyzer.OpcodeGrouping;
 import fileanalyzer.VoiceUploadDownloadAnalyzer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -57,9 +58,10 @@ public class ClientApplication {
         //ProtocolDescriptionParser.test();
 //        CallLimitAnalyzer.test();
         //VoiceUploadDownloadAnalyzer.test();
-        HeaderAnalyzer.test();
+//        HeaderAnalyzer.test();
 //        CallDisconnected.test();
 //        FileComparer.test();
+        OpcodeGrouping.restore();
         
     }
     public static void decodeByte(){
