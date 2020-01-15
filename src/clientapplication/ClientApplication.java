@@ -58,10 +58,10 @@ public class ClientApplication {
         //ProtocolDescriptionParser.test();
 //        CallLimitAnalyzer.test();
         //VoiceUploadDownloadAnalyzer.test();
-//        HeaderAnalyzer.test();
+        HeaderAnalyzer.test();
 //        CallDisconnected.test();
 //        FileComparer.test();
-        OpcodeGrouping.restore();
+//        OpcodeGrouping.restore();
         
     }
     public static void decodeByte(){

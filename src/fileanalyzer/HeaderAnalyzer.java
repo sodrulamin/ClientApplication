@@ -29,8 +29,8 @@ public class HeaderAnalyzer {
         result = new HashMap<>();
         try {
             readLines();
-            //processWorkingHeader();
-            processWorkingIp();
+            processWorkingHeader();
+            //processWorkingIp();
             //removeUnwantedHeader();
             //findNonDuplicateLines();
             printLine();
